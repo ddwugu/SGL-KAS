@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-def predict_location(x1, x2):
+def predict_location(x1):
     y = 13.08 - 3.93 * x1
     return y
 

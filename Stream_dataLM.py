@@ -15,7 +15,7 @@ def main():
     if st.button('Prediksi Lokasi'):
         try:
             x1 = float(Titik_1_PSI)
-            prediksi_lokasi = predict_location(x1, x2)
+            prediksi_lokasi = predict_location(x1)
             
             if prediksi_lokasi <= 0: # titik nol
                 suspect_loct = 'Pipa Aman, Tidak Terdapat Fluida yang Mengalir'
